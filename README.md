@@ -1,4 +1,4 @@
-# Respect Meter Full-Stack webapp
+# Respect Meter Full-Stack web app
 
 **Disclaimer:** 
 Please note that the **Respect Meter** web app's design is not the main focus of this project. The primary emphasis is on the underlying **code** and **logic** behind the app. The user interface and design are simple and may not be polished, as they are not the focus of this development. If you are reviewing the project, I encourage you to focus on the functionality and the structure of the code.

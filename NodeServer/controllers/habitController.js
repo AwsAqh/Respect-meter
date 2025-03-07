@@ -7,7 +7,7 @@ dotenv.config();
 const OpenAI = require('openai');
 
 const openai = new OpenAI({
-  apiKey: process.env.REACT_APP_RESPECT_METER_API_KEY,  // Ensure your API key is in the environment variable
+  apiKey: process.env.REACT_APP_RESPECT_METER_API_KEY,  
 });
 const cron = require('node-cron');
 const { has } = require('lodash');
@@ -17,7 +17,7 @@ const { has } = require('lodash');
 cron.schedule('59 23 * * *', async () => {
   try {
     console.log('Running daily progress meter update...');
-   await updateProgressMeterForAllUsers(); // Function to update meter for all users
+   await updateProgressMeterForAllUsers(); 
     await updateDayValues()
 
     console.log('Daily progress meter update completed.');
@@ -42,10 +42,10 @@ async function updateProgressMeterForAllUsers() {
   const users = await User.find({});
   
   for (const user of users) {
-    // Assume you have a function that calculates the new meter for a given user
+  
     const newMeterData = await updateProgressMeter(user._id);
     
-    // Update the user's progress meter and meterLastUpdate
+    
     await User.findByIdAndUpdate(user._id, {
       progressMeter: newMeterData,
       meterLastUpdate: Date.now(),

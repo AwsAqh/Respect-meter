@@ -1,0 +1,25 @@
+.side-nav-bar {
+          
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    justify-content: flex-start;
+    
+    
+  }
+  .side-nav-bar > *{flex-basis: 20px;}
+  
+  .SNB-container{
+    
+    background-color: #16325B;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;     
+    grid-column: 1 / 2;      
+    grid-row-start: 2 ;
+    grid-row-end: 4;  
+    border-right: 0.1px solid  white
+
+  }

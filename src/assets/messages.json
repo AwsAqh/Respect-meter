@@ -1,0 +1,24 @@
+{
+    "low": [
+      "Keep pushing, you're starting out!",
+      "Don't worry, progress takes time.",
+      "Every journey begins with a small step.",
+      "Remember, consistency is key.",
+      "You can do it! Stay motivated."
+    ],
+    "medium": [
+      "You're on the right track!",
+      "Good job, keep it up!",
+      "Solid progress, aim for even more!",
+      "Keep your momentum going.",
+      "You're making steady progress!"
+    ],
+    "high": [
+      "Excellent work, you're rocking it!",
+      "Outstanding performance!",
+      "You're at the top of your game!",
+      "Amazing consistency, keep shining!",
+      "Remarkable progress, you're unstoppable!"
+    ]
+  }
+  

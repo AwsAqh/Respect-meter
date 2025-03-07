@@ -1,0 +1,36 @@
+.reg-auth-form{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    
+    background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 12px );
+  -webkit-backdrop-filter: blur( 12px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  height: 45%;
+  
+    
+  }
+
+  .name-email,.pas-confirmPas{
+
+    display: flex;
+    gap: 10px;
+      
+    }
+
+form.reg{
+        padding: 15px;
+        
+        
+}
+
+.reg-auth-footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+grid-column-start: 2;    
+padding-bottom: 15px;
+}

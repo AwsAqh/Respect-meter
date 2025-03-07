@@ -1,0 +1,85 @@
+.auth-page{
+    background-color: #020202;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #020202 40px ), repeating-linear-gradient( #16325b, #16325B );
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+ 
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+.auth-form{
+  display: grid;
+  grid-template-rows: 0.8fr 0.8fr 0.5fr;
+    background: rgba( 255, 255, 255, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12px );
+-webkit-backdrop-filter: blur( 12px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+height: 40em;
+width: 20em;
+
+
+justify-content:center;
+align-items:center;    
+
+}
+
+
+form{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+
+
+
+.text-field{
+width: 100%;
+
+
+}
+
+.auth-state{
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    font-size: 40px;                   /* Sets the font size */
+  color: white;
+  font-weight: bold;
+
+}
+
+.action-button{
+    margin-top: 15px;
+    }
+
+ .error-auth{
+  color: #FF5733;
+
+    }
+
+    .auth-footer{
+
+      display: flex;
+      flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* space between error and button */
+    }

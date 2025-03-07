@@ -1,0 +1,23 @@
+
+#notification {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px; 
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    
+    border-radius: 2px;
+     padding: 16px;
+   
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+  }
+  
+ 
+  #notification.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  

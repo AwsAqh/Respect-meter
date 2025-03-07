@@ -1,0 +1,135 @@
+
+
+.habits-container {
+
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  display: flex;
+  flex-direction: column;
+
+  flex-grow: 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #16325B;
+
+  min-width: fit-content;
+  overflow-y: auto;
+
+}
+
+
+.habits-label {
+  display: flex;
+  flex-shrink: 0;
+  overflow-x: hidden;
+  padding: 0.5rem;
+  background-color: seagreen;
+  border-bottom: 1px solid #ccc;
+  color: #fff; 
+  font-weight: bold;
+  justify-content: space-between; 
+  
+}
+
+.label-item {
+  flex: 1;
+  text-align: center;
+  color: #ccc;
+}
+
+
+
+.list-of-habits {
+  flex: 1;
+  
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: #ccc;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+
+}
+
+
+.habits-content {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.habit-name,.habit-importance,.habit-duration {
+  padding: 0.5rem;
+  flex: 1;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+
+
+
+.habit-actions {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  margin-left: 1rem;
+  flex-shrink: 0; 
+  min-width: 300.14px;
+}
+
+
+
+
+
+/*Buttons //////////////////////////////////////////////////////////////////////////////////////*/
+
+button.btn-success {
+  background-color: #4CAF50;
+  color: white; 
+  
+}
+
+button.btn-danger {
+  background-color: #F44336;
+  color: white;
+  
+}
+
+button.btn-secondary {
+  background-color: #2196F3;
+  color: white;
+}
+
+button.add-habit {
+  background-color: white;
+  color: #2196F3;
+}
+
+button {
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.commit-state{min-width: 81.14px}
+
+
+
+
+
+
+
+
+
+

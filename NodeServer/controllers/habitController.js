@@ -38,7 +38,7 @@ async function updateDayValues(){
 }
 
 async function updateProgressMeterForAllUsers() {
-  // Fetch all users (or those who need an update)
+ 
   const users = await User.find({});
   
   for (const user of users) {
@@ -352,9 +352,7 @@ console.log(commitment,dayIndex)
 
 
 
-
-
-// Retrieve meter value, day values for line chart from front end     
+     
 exports.getUserMeter =async (req,res)=>{
 try{
   const userId= req.user
